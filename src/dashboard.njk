@@ -1,0 +1,14 @@
+---
+priority: 0.5
+---
+
+{% extends "./templates/dashboard-layout.njk" %}
+
+{% block body %}
+	<a href='/'>Home</a>
+	<br>
+
+	<div data-netlify-identity-menu></div>
+
+	<div data-netlify-identity-button>Login with Netlify Identity</div>
+{% endblock %}

@@ -36,9 +36,9 @@ describe('Has a 200 response', function() {
 		);
 	});
 
-	it('is /second-page', function() {
+	it('is /dashboard', function() {
 		chai.request(hostname)
-			.get('/second-page')
+			.get('/dashboard')
 			.end(function(err, res) {
 				expect(res).to.have.status(200);
 			}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    {% include "./partials/head-data.njk" %}
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    {% block head %}
+        <!-- Defaults -->
+        <title>Boilerplate</title>
+    {% endblock %}
+</head>
+
+<body>
+    {% block body %}{% endblock %}
+
+    {% include "./partials/footer.njk" %}
+</body>
+</html>

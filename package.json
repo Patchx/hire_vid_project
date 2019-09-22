@@ -1,6 +1,9 @@
 {
   "name": "boilerplate_npm_name",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.16.3"
+  },
   "description": "Official repo of boilerplate systems",
   "main": "index.js",
   "scripts": {
@@ -28,7 +31,7 @@
     "node-sass": "^4.12.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-env": "7.4.2",
     "bootstrap-sass": "^3.3.7",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",

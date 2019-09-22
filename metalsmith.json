@@ -2,6 +2,9 @@
   "source": "src",
   "destination": "build",
   "plugins": {
+  	"metalsmith-babel": {
+  	  "presets": ["@babel/preset-env"]
+  	},
     "metalsmith-in-place": true
   }
 }

@@ -10,3 +10,4 @@
 
 - Important! Currently, the tests will fail if the local dev server isn't running on your machine. Make sure you ran ```npm run local``` before running ```npm run test```
 
+### Working locally on Node v10.16.3
