@@ -45,9 +45,9 @@ describe('Has a 200 response', function() {
 		);
 	});
 
-	it('is /subdirectory-example/nested', function() {
+	it('is /demo/call', function() {
 		chai.request(hostname)
-			.get('/subdirectory-example/nested')
+			.get('/demo/call')
 			.end(function(err, res) {
 				expect(res).to.have.status(200);
 			}

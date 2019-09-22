@@ -1,0 +1,25 @@
+---
+priority: 0.5
+---
+
+{% extends "./templates/dashboard-layout.njk" %}
+
+{% block body %}
+<a href='/'>Home</a>
+
+<div id="meet">Jitsi</div>
+
+
+<script src='https://meet.jit.si/external_api.js'></script>
+
+<script>
+	const domain = 'meet.jit.si';
+	const options = {
+	    roomName: 'JitsiMeetAPIExample',
+	    width: 700,
+	    height: 700,
+	    parentNode: document.querySelector('#meet')
+	};
+	const api = new JitsiMeetExternalAPI(domain, options);
+</script>
+{% endblock %}
