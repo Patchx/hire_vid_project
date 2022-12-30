@@ -35,7 +35,7 @@
     "bootstrap-sass": "^3.3.7",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
-    "mocha": "^6.0.2",
+    "mocha": "^10.2.0",
     "netlify-cli": "^2.11.18",
     "opn": "^5.4.0"
   }
